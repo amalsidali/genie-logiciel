@@ -10,7 +10,7 @@ agent any
           {
               steps {
               def gv = load 'script.groovy'
-              bat 'mvn compiler:compile'
+              gv.call_build()
               }
               post {
                   success {
