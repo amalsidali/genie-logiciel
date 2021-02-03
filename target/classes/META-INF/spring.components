@@ -1,0 +1,2 @@
+sidali.App=org.springframework.stereotype.Component
+sidali.GreetingController=org.springframework.stereotype.Component

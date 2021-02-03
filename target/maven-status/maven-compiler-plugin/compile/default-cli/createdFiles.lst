@@ -1,0 +1,4 @@
+META-INF/spring.components
+sidali/GreetingController.class
+sidali/Greeting.class
+sidali/App.class
