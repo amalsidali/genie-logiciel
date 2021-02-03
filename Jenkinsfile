@@ -9,7 +9,8 @@ agent any
           stage('build')
           {
               steps {
-              sh 'mvn compiler:compile'
+              def gv = load 'script.groovy'
+              bat 'mvn compiler:compile'
               }
               post {
                   success {
